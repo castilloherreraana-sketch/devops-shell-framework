@@ -3,7 +3,7 @@ set -euo pipefail
 
 APP_NAME="DevOps Shell Framework"
 HOSTNAME_VALUE=$(hostname)
-DATE_VALUE=$(date '+%Y-%m-%d %H')
+DATE_VALUE=$(date '+%Y-%m-%d %H:%M:%S')
 USER_VALUE=$(whoami)
 
 cat > app/htmls/index.html <<HTML
