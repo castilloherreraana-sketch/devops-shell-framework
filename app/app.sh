@@ -6,7 +6,7 @@ HOSTNAME_VALUE=$(hostname)
 DATE_VALUE=$(date '+%Y-%m-%d %H:%M:%S')
 USER_VALUE=$(whoami)
 
-cat > app/htmls/index.html <<HTML
+cat > app/index.html <<HTML
 <!DOCTYPE html>
 <html>
 <head>
